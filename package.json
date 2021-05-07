@@ -2,7 +2,7 @@
   "name": "GodnicSchoolApi",
   "version": "1.0.0",
   "description": "Godnic School Api",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
     "dev": "nodemon src/server.js",
