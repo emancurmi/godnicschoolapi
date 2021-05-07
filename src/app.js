@@ -14,8 +14,8 @@ const bookingRouter = require('./booking/booking-router')
 let whitelist = [
     'http://localhost:8000',
     'http://localhost:3000',
-    'https://godnigschoolapp.godnicgarage.com',
-    'https://godnicschoolapi.godnicgarage.com']
+    'https://schoolbookingapp.godnicgarage.com',
+    'https://schoolbookingapi.godnicgarage.com']
 
 app.use(morgan((NODE_ENV === 'production') ? 'tiny' : 'common', {
     skip: () => NODE_ENV === 'test'
