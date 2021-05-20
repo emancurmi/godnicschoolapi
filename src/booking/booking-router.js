@@ -17,11 +17,14 @@ bookingRouter
     })
 
     .post(jsonParser, (req, res, next) => {
-        let current_date = (new Date()).valueOf().toString();
-        //let random = Math.random().toString();
-        //let userhex = crypto.createHash('sha1').update(current_date + random).digest('hex');
-
-        const student =  {studentid, sfirstname, slastname, saddress, gnationalid, gfirstname, glastname, gaddress, gemail, gtelno, gmobno, pickupadd, schoolname, classname, pickupdays, additionalinfo, fsta, stsa, agreement, current_date } = req.body
+        const student = {
+            studentid, sfirstname, slastname,
+            saddress, gnationalid, gfirstname,
+            glastname, gaddress, gemail, gtelno,
+            gmobno, pickupadd, schoolname, classname,
+            pickupdays, additionalinfo, fsta, stsa,
+            agreement, current_date, state
+        } = req.body
 
         for (const [key, value] of Object.entries(student)) {
             if (value == null) {
