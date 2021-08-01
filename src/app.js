@@ -16,8 +16,7 @@ let whitelist = [
     'http://localhost:3000',
     'https://schoolbookingapp.godnicgarage.com',
     'https://schoolbookingapi.godnicgarage.com',
-    'https://godnicschoolapp.vercel.app/admin',
-    'https://schoolbookingapp.godnicgarage.com/admin']
+    'https://godnicschoolapp.vercel.app']
 
 app.use(morgan((NODE_ENV === 'production') ? 'tiny' : 'common', {
     skip: () => NODE_ENV === 'test'
