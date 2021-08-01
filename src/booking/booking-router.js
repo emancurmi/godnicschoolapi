@@ -20,7 +20,7 @@ bookingRouter
             schoolCode, schoolLevelCode, studentRegionName,
             studentIdCard, studentFirstName, studentLastName,
             studentEmail, parentIdCard, parentFullName, parentMobile,
-            houseName, HouseNumber, streetAddress, zipCode,
+            houseName, houseNumber, streetAddress, zipCode,
             notes, consent, scheduleType, scheduleValidFrom,
             scheduleValidTo, scheduleActiveDays, scheduleRoutePlannedName, 
             scheudleStudentAddress, regionName
