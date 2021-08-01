@@ -1,7 +1,6 @@
 const path = require('path')
 const express = require('express')
 const BookingServices = require('./booking-services')
-const crypto = require('crypto')
 const bookingRouter = express.Router()
 const jsonParser = express.json()
 
@@ -18,12 +17,13 @@ bookingRouter
 
     .post(jsonParser, (req, res, next) => {
         const student = {
-            studentid, sfirstname, slastname,
-            saddress, gnationalid, gfirstname,
-            glastname, gaddress, gemail, gtelno,
-            gmobno, pickupadd, schoolname, classname,
-            pickupdays, additionalinfo, fsta, stsa,
-            agreement, current_date, state
+            schoolCode, schoolLevelCode, studentRegionName,
+            studentIdCard, studentFirstName, studentLastName,
+            studentEmail, parentIdCard, parentFullName, parentMobile,
+            houseName, HouseNumber, streetAddress, zipCode,
+            notes, consent, scheduleType, scheduleValidFrom,
+            scheduleValidTo, scheduleActiveDays, scheduleRoutePlannedName, 
+            scheudleStudentAddress, regionName
         } = req.body
 
         for (const [key, value] of Object.entries(student)) {
