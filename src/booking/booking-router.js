@@ -17,13 +17,13 @@ bookingRouter
 
     .post(jsonParser, (req, res, next) => {
         const student = {
-            schoolCode, schoolLevelCode, studentRegionName,
+            step, schoolCode, schoolLevelCode, studentRegionName,
             studentIdCard, studentFirstName, studentLastName,
             studentEmail, parentIdCard, parentFullName, parentMobile,
             houseName, houseNumber, streetAddress, zipCode,
             notes, consent, scheduleType, scheduleValidFrom,
             scheduleValidTo, scheduleActiveDays, scheduleRoutePlannedName, 
-            scheudleStudentAddress, regionName
+            scheduleStudentAddress, regionName, registrationDate
         } = req.body
 
         for (const [key, value] of Object.entries(student)) {
