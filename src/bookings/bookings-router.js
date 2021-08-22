@@ -71,11 +71,11 @@ async function run(parentFullName, parentIdCard, studentFirstName, studentLastNa
     let url = ""
     if(scheduleRoutePlannedName.includes("GODNIC")){
         console.log("url updated Godnic")
-        url = 'https://godnicgarage.com/wp-content/uploads/2021/08/FORM_A_Godnic_Garage.pdf'
+        url = 'https://godnicgarage.com/wp-content/uploads/2021/08/FORM_B_Godnic_Garage.pdf'
     }
     else if(scheduleRoutePlannedName.includes("PB")){
         console.log("url updated PB")
-        url = 'https://godnicgarage.com/wp-content/uploads/2021/08/FORM_A_Paul_Garage.pdf'
+        url = 'https://godnicgarage.com/wp-content/uploads/2021/08/FORM_B_Paul_Borg.pdf'
     }
     else 
     {
@@ -87,43 +87,62 @@ async function run(parentFullName, parentIdCard, studentFirstName, studentLastNa
     //const helveticaFont = await pdfDoc.embedFont(StandardFonts.Helvetica)
   
     let pages = pdfDoc.getPages()
-    let firstPage = pages[1]
+    let firstPage = pages[2]//3rd page
 
+    //Signature
+    firstPage.drawText(parentFullName + " " + parentIdCard, {
+        x: 290,
+        y: 580,//278
+        size: 15,
+        //font: helveticaFont,
+        //color: rgb(0.95, 0.1, 0.1),
+        //rotate: degrees(-45),
+      })
+
+    //Parents Name
     firstPage.drawText(parentFullName, {
       x: 290,
-      y: 278,
+      y: 545,//278
       size: 15,
       //font: helveticaFont,
       //color: rgb(0.95, 0.1, 0.1),
       //rotate: degrees(-45),
     })
+
+    //Parents ID
     firstPage.drawText(parentIdCard, {
         x: 290,
-        y: 240,
+        y: 507,
         size: 15,
         //font: helveticaFont,
         //color: rgb(0.95, 0.1, 0.1),
         //rotate: degrees(-45),
       })
+
+      //Students Name
       firstPage.drawText(studentFirstName + " " + studentLastName, {
         x: 290,
-        y: 205,
+        y: 472,
         size: 15,
         //font: helveticaFont,
         //color: rgb(0.95, 0.1, 0.1),
         //rotate: degrees(-45),
       })
+
+      //Students ID
       firstPage.drawText(studentIdCard, {
         x: 290,
-        y: 168,
+        y: 435,
         size: 15,
         //font: helveticaFont,
         //color: rgb(0.95, 0.1, 0.1),
         //rotate: degrees(-45),
       })
+
+      //Registration Date
       firstPage.drawText(registrationDate + "-2021", {
         x: 290,
-        y: 130,
+        y: 397,
         size: 15,
         //font: helveticaFont,
         //color: rgb(0.95, 0.1, 0.1),
