@@ -10,6 +10,7 @@ const app = express()
 
 const helpRouter = require('./help/help-router')
 const bookingRouter = require('./booking/booking-router')
+const bookingsRouter = require('./bookings/bookings-router')
 
 let whitelist = [
     'http://localhost:8000',
@@ -39,6 +40,7 @@ app.use(validateBearerToken)
 
 app.use('/api/help', helpRouter)
 app.use('/api/booking', bookingRouter)
+app.use('/api/bookings', bookingsRouter)
 
 app.get('/', (req, res) => {
     res.send('Yippie!! Server Online in ' + NODE_ENV + ' mode! At ' + ADDRESS + ':' + PORT);
