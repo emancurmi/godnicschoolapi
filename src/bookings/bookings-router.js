@@ -70,15 +70,18 @@ bookingsRouter
 async function run(parentFullName, parentIdCard, studentFirstName, studentLastName, studentIdCard, registrationDate, schoolCode, scheduleRoutePlannedName) {
     let url = ""
     let operator = ""
+    let driver = ""
 
     if(scheduleRoutePlannedName.includes("GODNIC")){
         console.log("url updated Godnic")
         operator = "Godnic Garage"
+        driver = "Godfrey Borg"
         url = 'https://godnicgarage.com/wp-content/uploads/2021/08/FORM_B_Godnic_Garage.pdf'
     }
     else if(scheduleRoutePlannedName.includes("PB")){
         console.log("url updated PB")
         operator = "Paul Borg"
+        driver = "Paul Borg"
         url = 'https://godnicgarage.com/wp-content/uploads/2021/08/FORM_B_Paul_Borg.pdf'
     }
     else 
@@ -92,6 +95,16 @@ async function run(parentFullName, parentIdCard, studentFirstName, studentLastNa
   
     let pages = pdfDoc.getPages()
     let firstPage = pages[2]//3rd page
+
+    //Driver
+    firstPage.drawText(driver, {
+        x: 420,
+        y: 670,//278
+        size: 10,
+        //font: helveticaFont,
+        //color: rgb(0.95, 0.1, 0.1),
+        //rotate: degrees(-45),
+      })
 
     //Signature
     firstPage.drawText(parentFullName + " " + parentIdCard, {
