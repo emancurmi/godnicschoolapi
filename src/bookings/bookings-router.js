@@ -62,19 +62,23 @@ bookingsRouter
         registrationDate: res.booking.registrationDate
     })
 
-    run(res.booking.parentFullName, res.booking.parentIdCard, res.booking.studentFirstName, res.booking.studentLastName, res.booking.studentIdCard, res.booking.registrationDate, res.booking.scheduleRoutePlannedName).catch(err => console.log(err));
+    run(res.booking.parentFullName, res.booking.parentIdCard, res.booking.studentFirstName, res.booking.studentLastName, res.booking.studentIdCard, res.booking.registrationDate, res.booking.schoolCode, res.booking.scheduleRoutePlannedName).catch(err => console.log(err));
 })
 
 
 
-async function run(parentFullName, parentIdCard, studentFirstName, studentLastName, studentIdCard, registrationDate, scheduleRoutePlannedName) {
+async function run(parentFullName, parentIdCard, studentFirstName, studentLastName, studentIdCard, registrationDate, schoolCode, scheduleRoutePlannedName) {
     let url = ""
+    let operator = ""
+
     if(scheduleRoutePlannedName.includes("GODNIC")){
         console.log("url updated Godnic")
+        operator = "Godnic Garage"
         url = 'https://godnicgarage.com/wp-content/uploads/2021/08/FORM_B_Godnic_Garage.pdf'
     }
     else if(scheduleRoutePlannedName.includes("PB")){
         console.log("url updated PB")
+        operator = "Paul Borg"
         url = 'https://godnicgarage.com/wp-content/uploads/2021/08/FORM_B_Paul_Borg.pdf'
     }
     else 
@@ -151,7 +155,7 @@ async function run(parentFullName, parentIdCard, studentFirstName, studentLastNa
 
 
   // Write the PDF to a file
-  fs.writeFileSync('./src/pdf/2021-2022/'+studentFirstName+'_'+studentLastName+'_'+studentIdCard+'.pdf', await pdfDoc.save());
+  fs.writeFileSync('./src/pdf/2021-2022/'+operator+'/'+schoolCode+'/'+studentFirstName+'_'+studentLastName+'_'+studentIdCard+'.pdf', await pdfDoc.save());
 }
 
 
