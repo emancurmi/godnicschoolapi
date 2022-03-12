@@ -1,0 +1,24 @@
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /favicon.ico","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"insert into `tbl_bookings` (`consent`, `houseName`, `houseNumber`, `notes`, `parentEmail`, `parentFullName`, `parentIdCard`, `parentMobile`, `regionName`, `registrationDate`, `scheduleActiveDays`, `scheduleRoutePlannedName`, `scheduleStudentAddress`, `scheduleType`, `scheduleValidFrom`, `scheduleValidTo`, `schoolCode`, `schoolLevelCode`, `step`, `streetAddress`, `studentEmail`, `studentFirstName`, `studentIdCard`, `studentLastName`, `studentRegionName`, `zipCode`) values ('true', 'Abc Flats', '12B', 'this is a test studnet for email', 'test@test.com', 'test', 'test', '99887768', 'Fontana', '10-Mar', 'evenings', '', 'True', 'both', '2022-03-10', '2022-03-23', 'Bishops Conservatory Primary Gozo', 'KinderGarden1', 7, 'asdfkjlk sdlfkj ', 'test@test.com', 'test', 'test', 'test', 'Fontana', 'ABC123') - ER_BAD_FIELD_ERROR: Unknown column 'consent' in 'field list'","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Cannot read property 'sendMail' of undefined","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
