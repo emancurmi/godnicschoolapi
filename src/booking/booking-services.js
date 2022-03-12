@@ -1,4 +1,4 @@
-const tbl = 'tbl_bookings';
+const tbl = 'old_bookings';
 
 const BookingServices = {
     getAllBookings(knex) {
