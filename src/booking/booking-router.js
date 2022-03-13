@@ -186,9 +186,9 @@ bookingRouter
         //send Email
         var transporter = nodemailer.createTransport({
             sendmail: true,
-            host: "smtp-mail.outlook.com", // hostname
-            secureConnection: false, // TLS requires secureConnection to be false
-            port: 587, // port for secure SMTP
+            host: "smtp-mail.outlook.com", 
+            secureConnection: false,
+            port: 587,
             tls: {
                ciphers:'SSLv3'
             },
@@ -199,7 +199,7 @@ bookingRouter
         });
 
         var emailOptions = {
-            from: 'Godnic Garage <godnicgarage@outlook.com>',
+            from: 'Godnic Garage',
             to: email,
             subject: 'School Transport Agreement',
             text: emailMessage
@@ -207,12 +207,12 @@ bookingRouter
 
         transporter.sendMail(emailOptions, (error, info) => {
             if (error) {
-            console.log(error);
-            //res.redirect('/contact_send');
+                console.log(error);
+                //res.redirect('/contact_send');
             } else {
-            console.log('Message Sent: ' + info.response);
-            console.log('Email Message: ' + emailMessage);
-            res.redirect('/contact_error');
+                console.log('Message Sent: ' + info.response);
+                console.log('Email Message: ' + emailMessage);
+                //res.redirect('/contact_error');
             }
         });
     })
