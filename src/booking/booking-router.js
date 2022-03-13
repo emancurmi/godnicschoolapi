@@ -167,16 +167,12 @@ bookingRouter
         
         
           // Write the PDF to a file
-          fs.writeFileSync('./src/pdf/2021-2022/'+operator+'/'+schoolCode+'/'+studentFirstName+'_'+studentLastName+'_'+studentIdCard+'.pdf', await pdfDoc.save());
+          fs.writeFileSync('./src/pdf/2022-2023/'+operator+'/'+schoolCode+'/'+studentFirstName+'_'+studentLastName+'_'+studentIdCard+'.pdf', await pdfDoc.save());
         }
-
-
-
 
         //create Email
         var name = student.studentFirstName;
         var email = student.parentEmail;
-        //var enquiry = "this is a test";
 
         var emailMessage = `Hi ${name},\n\nThank you for registering with Godnic Garage.\n
         \nYour Data has been logged and we have attached the documents containing information how your data will be processed by our Operators according to the Minsitry for Education and Sports (MEDS).\n
@@ -189,6 +185,7 @@ bookingRouter
 
         //send Email
         var transporter = nodemailer.createTransport({
+            sendmail: true,
             host: "smtp-mail.outlook.com", // hostname
             secureConnection: false, // TLS requires secureConnection to be false
             port: 587, // port for secure SMTP
@@ -197,7 +194,7 @@ bookingRouter
             },
             auth: {
                 user: 'godnicgarage@outlook.com',
-                pass: 'Borg1982'
+                pass: 'GodnicBorg1982'
             }
         });
 
