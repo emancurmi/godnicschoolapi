@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Godnic School Api",
   "main": "server.js",
+  "engines": {
+    "node": "16.x"
+  }
   "scripts": {
     "test": "mocha --require test/setup.js",
     "dev": "nodemon src/server.js",
