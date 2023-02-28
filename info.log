@@ -22,3 +22,359 @@
 {"message":"Unauthorized request to path: /api/booking/","level":"error"}
 {"message":"Unauthorized request to path: /api/booking/","level":"error"}
 {"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /api/users","level":"error"}
+{"message":"Unauthorized request to path: /api/users","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"UserServices.getAllUsers is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"UserServices.getAllUsers is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"select * from `users` - ER_NO_SUCH_TABLE: Table 'BruwngsGaPw9Osr.users' doesn't exist","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trips","level":"error"}
+{"message":"Unauthorized request to path: /api/trips","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"req is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"UserServices.getUserbyId(...).than is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"UserServices.getUserbyId(...).than is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"UserServices.getUserbyId(...).than is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"UserServices.getUserbyId is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"UserServices.getUserbyId is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/user/","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"UserServices.getUserbyId is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user/2","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trips","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"TripServices.getTripbyId is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"TripServices.getTripbyId is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"select * from `tbl_trips` where `tripid` = '1' limit 1 - ER_BAD_FIELD_ERROR: Unknown column 'tripid' in 'where clause'","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"select * from `tbl_trips` where `tripid` = '1' limit 1 - ER_BAD_FIELD_ERROR: Unknown column 'tripid' in 'where clause'","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"ER_DBACCESS_DENIED_ERROR: Access denied for user 'brauwngsuser'@'localhost' to database 'bruwngsgapw9osr'","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"select * from `tbl_trips` - ER_TABLEACCESS_DENIED_ERROR: SELECT command denied to user 'brauwngsuser'@'localhost' for table 'tbl_trips'","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/2","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"routeId is not defined","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/1","level":"error"}
+{"message":"select * from `tbl_trips` where `driverID` = '1' - ER_BAD_FIELD_ERROR: Unknown column 'driverID' in 'where clause'","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/1","level":"error"}
+{"message":"select * from `tbl_trips` where `driverId` = '1' - ER_BAD_FIELD_ERROR: Unknown column 'driverId' in 'where clause'","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'data')","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/2","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/4","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/5","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/4","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/driver/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/operator","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/operator/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/operator/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/routeDriverId/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/routeDriverId/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/routeDriverId/2","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/routeDriverId/4","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/routeDriverId/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/routeDriverId/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/routeDriverId/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/routeDriverId/3","level":"error"}
+{"message":"Unauthorized request to path: /api/users","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/user/userrole/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user/userrole/2","level":"error"}
+{"message":"Unauthorized request to path: /api/user/userrole/3","level":"error"}
+{"message":"Unauthorized request to path: /api/user/userrole/4","level":"error"}
+{"message":"Unauthorized request to path: /api/user/userrole/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user/info/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user/info/2","level":"error"}
+{"message":"Unauthorized request to path: /api/user/info/3","level":"error"}
+{"message":"Unauthorized request to path: /api/user/info/4","level":"error"}
+{"message":"Unauthorized request to path: /api/user/info/5","level":"error"}
+{"message":"Unauthorized request to path: /api/user/info/6","level":"error"}
+{"message":"Unauthorized request to path: /api/user/info/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/user/info/2","level":"error"}
+{"message":"Unauthorized request to path: /api/user/role/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user/role/2","level":"error"}
+{"message":"Unauthorized request to path: /api/user/role/1","level":"error"}
+{"message":"Unauthorized request to path: /api/user/role/","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/2","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/2","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/2","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/2","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/2","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/2","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/4","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/4","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/2","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/4","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/5","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/4","level":"error"}
+{"message":"Unauthorized request to path: /api/userpower/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/3","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/4","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/5","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/6","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/7","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/11","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/1","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/2","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/2","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/2","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userrole/3","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'Id')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/2","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/4","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/2","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/3","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/4","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/2","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/2","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/1","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/2","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripoperator/2","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/2","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/3","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/4","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/5","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/6","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/7","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/6","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/8%20","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/1%20","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/1%20","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/2%20","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/3%20","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/5%20","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/6%20","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/tripdriver/8%20","level":"error"}
+{"message":"Cannot read properties of undefined (reading 'routeId')","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/1","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/2","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/3","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/4","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/5","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/4","level":"error"}
+{"message":"Unauthorized request to path: /api/userinfo/4","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"select * from `old_bookings` - ER_NO_SUCH_TABLE: Table 'bruwngsgapw9osr.old_bookings' doesn't exist","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"select * from `old_bookings` - ER_NO_SUCH_TABLE: Table 'bruwngsgapw9osr.old_bookings' doesn't exist","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/bookings","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"select * from `tbl_bookings` where `ID` = '1' - ER_BAD_FIELD_ERROR: Unknown column 'ID' in 'where clause'","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"select * from `tbl_bookings` where `Id` = '1' - ER_BAD_FIELD_ERROR: Unknown column 'Id' in 'where clause'","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"bookingServices.getBookingById(...).then(...).catch(...).get is not a function","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"Unauthorized request to path: /api/trip/1","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/2","level":"error"}
+{"message":"Unauthorized request to path: /api/booking/1","level":"error"}
+{"message":"Unauthorized request to path: /api/booking","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/users","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/trip","level":"error"}
+{"message":"Unauthorized request to path: /api/user","level":"error"}
+{"message":"Unauthorized request to path: /api/user/1","level":"error"}

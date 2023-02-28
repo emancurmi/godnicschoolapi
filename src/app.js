@@ -9,8 +9,16 @@ const errorHandler = require('./error-handler')
 const app = express()
 
 const helpRouter = require('./help/help-router')
+
+const userRouter = require('./user/user-router')
+const userRoleRouter = require('./usersbyrole/user-role-router')
+const userinfoRouter = require('./userinfo/userinfo-router')
+
+const tripRouter = require('./trip/trip-router')
+const tripOperatorRouter = require('./tripbyoperator/trip-operator-router')
+const tripDriverRouter = require('./tripbydriver/trip-driver-router')
+
 const bookingRouter = require('./booking/booking-router')
-const bookingsRouter = require('./bookings/bookings-router')
 
 let whitelist = [
     'http://localhost:8000',
@@ -39,8 +47,16 @@ app.use(helmet())
 app.use(validateBearerToken)
 
 app.use('/api/help', helpRouter)
-app.use('/api/booking', bookingRouter)
-app.use('/api/bookings', bookingsRouter)
+
+app.use('/api/user', userRouter) // works
+app.use('/api/userrole', userRoleRouter) // works
+app.use('/api/userinfo', userinfoRouter) // works
+
+app.use('/api/trip', tripRouter) // works
+app.use('/api/tripoperator', tripOperatorRouter) // works
+app.use('/api/tripdriver', tripDriverRouter) // works
+
+app.use('/api/booking', bookingRouter) //
 
 app.get('/', (req, res) => {
     res.send('Yippie!! Server Online in ' + NODE_ENV + ' mode! At ' + ADDRESS + ':' + PORT);

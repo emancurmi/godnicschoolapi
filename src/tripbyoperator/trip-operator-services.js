@@ -1,12 +1,9 @@
 const tbl = 'tbl_trips';
 
-const TripServices = {
-    getAllTrips(knex) {
-        return knex.select('*').from(tbl)
-    },
+const TripOperatorServices = {
 
-    getTripbyId(knex, routeId) {
-        return knex.from(tbl).select('*').where('routeId', routeId).first()
+    getTripbyOperator(knex, routeOperatorId) {
+        return knex.from(tbl).select('*').where('routeOperatorId', routeOperatorId)
     },
 
     insertTrip(knex, newtrip) {
@@ -20,4 +17,4 @@ const TripServices = {
     },
 }
 
-module.exports = TripServices
+module.exports = TripOperatorServices

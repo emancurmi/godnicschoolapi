@@ -1,6 +1,6 @@
-const tbl = 'old_bookings';
+const tbl = 'tbl_bookings';
 
-const BookingServices = {
+const bookingServices = {
     getAllBookings(knex) {
         return knex.select('*').from(tbl)
     },
@@ -13,6 +13,10 @@ const BookingServices = {
                 return rows[0]
             })
     },
+    
+    getBookingById(knex, bookingid) {
+        return knex.from(tbl).select('*').where('bookingId', bookingid).first()
+    },
 }
 
-module.exports = BookingServices
+module.exports = bookingServices
